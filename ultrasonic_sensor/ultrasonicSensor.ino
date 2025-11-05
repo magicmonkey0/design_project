@@ -25,5 +25,5 @@ void loop() {
 
   Serial.print("Distance : ");
   Serial.println(distance);
-
+  delay(200); // give the sensor some time to reset
 }
