@@ -48,3 +48,17 @@ Learning, testing, and experimenting with the current sensor module with Arduino
   - forward-biased: an electrical configuration that applies a voltage across a diode in a way that allows current to flow through it.
    This is achieved by connecting the anode to the cathod (completing the circuit as well, like with the switch)
   - blue LED has a forward voltage of 3.0V to 3.6V
+ 
+---
+
+## Pseudocode/idea
+
+basically, when the actuator compresses and it reaches compacted garbage, the actuator will try to push more, <br>
+however, it can't, this would spike the current significantly (a condition known as **stalling**), <br>
+use the current sensor to detect this spike as a condition for the resistance threshold to tell the actuator to stop compressing and retract
+
+---
+
+## Credits
+
+youtube
