@@ -65,6 +65,76 @@ The project also strengthened my understanding of:
 * This experience helped shape my interest in projects that combine electronics and engineering with sustainability, including electronics repair, e-waste reduction, and designing tools that can extend the life of devices and appliances
 * This project also sparked my interest in working more with electronics, embedded systems, and hardware troubleshooting as well!
 ---
+### Improvements
+While the prototype successfully demonstrated the core concept of an automated garbage compactor, there are several areas that could be improved to make the system more reliable, automous, safe, and practical for real-world use.
+
+**1. Sensor calibration and reliability**
+* The current calibration process is not sufficiently consistent. Measurements can vary between cycles, which makes it difficult to reliably determine the state of the system.
+* A future version could implement a more robust calibration procedure, including automated calibration at startup, filtering of sensor readings, and averaging multiple measurements. Additional testing could also be used to characterize sensor error and determine appropriate thresholds (this was also done in the process of calibrating the current sensor and the automation but still needs more work!)
+
+**2. Fully Automated Operation**
+* The current system requires monitoring through the Arduino Serial Monitor during operation. This is useful for development and debugging, but would not be practical for a standalone device.
+* The control software could be redesigned as a fully automated state machine. The system could detect when a cycle should begin, control the compaction process verify that each stage has completed successfully, and stop or enter a safe state if an unexpected condition occurs
+ * Currently, there are three states indicated by three coloured LEDs: red - compressing, green - safe (to throw garbage in/not compressing), blue - bin is full (disposal; the device will lock and not compress further until disposal is done)
+ * This would allow the device to operate fully independently without requiring a computer or continuous user supervision.
+
+**3. Improved Power Distribution**
+* The power distribution could be redesigned to provide a cleaner and more reliable electrical architecture. The prototype wiring was primarily intended for development and testing, and could be improved through dedicated power rails, appropriate connectors, fusing, and clearer separation between high-current and low-current components.
+* A future PCB or purpose-built wiring harness could reduce loose connections and make the system easier to troubleshoot and maintain.
+
+**4. Improved Wiring and Physical Organization**
+* The existing wiring is a prototype using a breadboard and loose wire connections using jumper wires. A more polished version would use organized cable routing, secure connectors, strain relief, and mounting points for electrical components.
+* This would improve reliability and make individual components easier to access during maintenance or replacement (possibly a modular system).
+
+**5. Protective Enclosure and Safety**
+* The prototype could be significantly improved by enclosing the mechanical and electrical components. An enclosure would help protect users from moving parts, pinch points, exposed wiring, and electrical connections.
+  * In the current model, the components are partly encased in the upper frame where the linear actuator is.
+* Safety features could include:
+  * Emergency stop button
+  * Physical guards around moving mechanisms
+  * Interlock switches
+  * Overcurrent protection
+  * Thermal protection
+  * Automatic shutdown if abnormal operation is detected
+  * Accessible maintenance points
+
+**6. Exploring Alternative Compaction Mechanisms**
+* WIP
+
+**7. Power Consumption and Efficiency**
+* WIP
+
+**8. Automatic Sealing**
+* WIP
+
+**9. User Interface and Feedback**
+* WIP
+
+**10. Waste-Level and Capacity Monitoring**
+* WIP
+
+**11. Modular Design and Maintenance**
+* WIP
+
+#### Overal Direction
+The next iteration would focus on moving the project from a functional prototype toward a reliable standalone system. The main priorities would be improving sensor consistency, automating the control system, cleaning up the electrical architecture, improving physical safety, and adding meaningful feedback to the user.
+Beyond simply making the device more polished, these improvements would provide and opportunity to collect quantitive data on compression performance, energy consumption, reliability, and waste-volume reduction.
+This would allow future design decisions to be based on measured performance rather than observation alone.
+___
+### Design Project Poster
+<img width="881" height="495" alt="Screenshot 2026-09-30 at 11 24 36 PM" src="https://github.com/user-attachments/assets/265b131f-0082-42ea-b44b-66df443c1bd5" />
+
+* Was named "The Rudolf Compactor" because we presented in the month of December and I got inspiration to decorate the upper frame area into a Reindeer because of the TransLink Reindeer Buses
+ 
+Front:
+
+<img height="350" alt="IMG_7375" src="https://github.com/user-attachments/assets/c44a46a8-739d-412f-ab73-f59bba7adbfa" />
+
+Back:
+
+<img height="350" alt="IMG_7374" src="https://github.com/user-attachments/assets/54a4aeb7-dab7-48df-bd91-652a109796e6" />
+
+---
 ### Materials List
 * working on it!
 * Arduino Uno!
