@@ -24,7 +24,7 @@
 * Future versions could explore additional features such as waste-level monitoring, energy-efficient actuation, sorting assistance, or data collection to better understand waste-generation patterns.
 ---
 ## My contributions
-My primary work focused on the electrical and control aspects of the project:
+My primary work focused on the electrical, programming, and control aspects of the project:
 * Designed and assembled the electrical wiring for the system
 * Selected and integrated electrical components based on the system requirements; handled the budget, purchasing, and handling of materials and components (we had a reimbursable budget of $100)
 * Programmed the control logic for the compaction cycle based on load-based control
