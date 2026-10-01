@@ -1,6 +1,6 @@
 # Design project: Garbage Compactor 🗑️ 🔋 🌱 ⚡ 🔌
 
-### Problem statement: garbage gets stacked, garbage space is not fully utilized, resulting in high volume low density waste disposal. 
+## Problem statement: garbage gets stacked, garbage space is not fully utilized, resulting in high volume low density waste disposal. 
 * Garbage and recyclable waste can occupy a significant amount of physical space before collection, particularly when lightweight materials such as plastic containers, cardboard, and packaging are loosely disposed of. This can cause garbage bins to fill quickly, requiring more frequent emptying and reducing the amount of waste that can be stored within a given space (the bin and the garbage bag).
 * The goal of this project was to develop a small-scale automated garbage compactor capable of mechanically compressing waste to reduce its volume.
   * The system combines electrical components, sensors, a linear actuator, and programmed control logic to automate the compaction process.
@@ -9,7 +9,7 @@
 
  * Add pictures!
 ---
-### Potential Impacts
+## Potential Impacts
 * **Reduced waste volume:** compressing waste can allow more material to fit within a given container, reducing how frequently bins need to be emptied.
 * **More efficient use of space:** reducing the volume of waste could be useful in environments where storing space is limited, such as homes, businesses, or public facilities.
 * **Reduction in collection frequency:** if a container can hold more waste before reaching its capacity, collection may be required less frequently. This could potentially reduce the resources associated with waste collection.
@@ -18,12 +18,12 @@
 
 * Pictures!
 ---
-### Environmental Considerations
+## Environmental Considerations
 * The primary environmental benefit would come from improving the efficiency of waste storage and collection rather than directly reducing the amount of waste produced.
 * Compaction does not eliminate waste or make materials inherently more recyclable. Its potential environmental value depends on how the system is integrated into a broader waste-management process.
 * Future versions could explore additional features such as waste-level monitoring, energy-efficient actuation, sorting assistance, or data collection to better understand waste-generation patterns.
 ---
-### My contributions
+## My contributions
 My primary work focused on the electrical and control aspects of the project:
 * Designed and assembled the electrical wiring for the system
 * Selected and integrated electrical components based on the system requirements; handled the budget, purchasing, and handling of materials and components (we had a reimbursable budget of $100)
@@ -33,7 +33,7 @@ My primary work focused on the electrical and control aspects of the project:
 * Tested the complete the system and made adjustments to improve reliability
 * Also added UI indicators using LEDs - red, green, and blue.
 ---
-### The system
+## The system
 The compactor operates by coordinating an actuator with the control system to perform a defined compression cycle. Electrical signals from the control system are used to control the actuator and determine when different stages of the cycle should occur. 
 The project required considerations of:
 * Power distribution - 12V power supply
@@ -44,12 +44,12 @@ The project required considerations of:
 * Mechanical-electrical integration
 * Safe and repeatable operation
 
-## The process flow diagram
+### ⭐ The process flow diagram
 <img width="858" height="411" alt="automatic-garbage-compactor-flow-diagram" src="https://github.com/user-attachments/assets/b2e8e969-83ec-4971-bc60-b0cc0b27399c" />
 
 
 ---
-### What I Learned
+## What I Learned
 This project was one of my first opportunities to work on a system where software, electronics, and mechanical hardware had to work together. Some of the most valuable parts of the project were troubleshooting problems that only became apparent when the complete system was assembled vs when I was testing each subcomponent separately. I learned that a circuit can work correctly in isolction while still causing problems when integrated with the rest of the system.
 The project also strengthened my understanding of:
 * Reading data sheets and electrical specifications
@@ -65,7 +65,7 @@ The project also strengthened my understanding of:
 * This experience helped shape my interest in projects that combine electronics and engineering with sustainability, including electronics repair, e-waste reduction, and designing tools that can extend the life of devices and appliances
 * This project also sparked my interest in working more with electronics, embedded systems, and hardware troubleshooting as well!
 ---
-### Improvements
+## Improvements
 While the prototype successfully demonstrated the core concept of an automated garbage compactor, there are several areas that could be improved to make the system more reliable, automous, safe, and practical for real-world use.
 
 **1. Sensor calibration and reliability**
@@ -116,12 +116,12 @@ While the prototype successfully demonstrated the core concept of an automated g
 **11. Modular Design and Maintenance**
 * WIP
 
-#### Overal Direction
+### Overall Direction
 The next iteration would focus on moving the project from a functional prototype toward a reliable standalone system. The main priorities would be improving sensor consistency, automating the control system, cleaning up the electrical architecture, improving physical safety, and adding meaningful feedback to the user.
 Beyond simply making the device more polished, these improvements would provide and opportunity to collect quantitive data on compression performance, energy consumption, reliability, and waste-volume reduction.
 This would allow future design decisions to be based on measured performance rather than observation alone.
 ___
-### Design Project Poster
+## Design Project Poster
 <img width="881" height="495" alt="Screenshot 2026-09-30 at 11 24 36 PM" src="https://github.com/user-attachments/assets/265b131f-0082-42ea-b44b-66df443c1bd5" />
 
 * Was named "The Rudolf Compactor" because we presented in the month of December and I got inspiration to decorate the upper frame area into a Reindeer because of the TransLink Reindeer Buses
@@ -135,7 +135,7 @@ Back:
 <img height="350" alt="IMG_7374" src="https://github.com/user-attachments/assets/54a4aeb7-dab7-48df-bd91-652a109796e6" />
 
 ---
-### Materials List
+## Materials List
 * working on it!
 * Arduino Uno!
 <img width="293" height="225" alt="View recent photos" src="https://github.com/user-attachments/assets/499ae7f7-28ea-4b5b-a1f3-54e95075fe08" />
