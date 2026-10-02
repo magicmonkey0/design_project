@@ -7,7 +7,15 @@
   * By integrating these subsystems into a single device, the project explores how automation can be used to improve the efficiency of waste storage and handling.
  * Personally, I observe piling and overflowing of garbage at my workplace, at the cafe, at school, and public garbage disposal bins. For the example at my workplace at the cafe, I can manually compress the garbage which can approximately reduce the volume by half compared to post-compression, however I think automating and optimizing this process can be beneficial in a vast array of situations, either commercially or casually.
 
- * Add pictures!
+Exibit A:
+
+<img width="214" height="239" alt="Screenshot 2026-09-30 at 9 13 04 PM" src="https://github.com/user-attachments/assets/988e7cf7-8f33-44f7-94ad-c77054e99e90" />
+
+Exibit B:
+
+<img height="239" alt="Screenshot 2026-10-01 at 9 18 44 PM" src="https://github.com/user-attachments/assets/40b97c93-d05b-44a8-a753-2f03f71bbb2b" />
+
+
 ---
 ## Potential Impacts
 * **Reduced waste volume:** compressing waste can allow more material to fit within a given container, reducing how frequently bins need to be emptied.
